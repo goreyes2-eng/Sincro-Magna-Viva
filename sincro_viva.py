@@ -8,7 +8,7 @@ class AuraConcienciaTotal:
         self.bitacora = "bitacora_evolucion.json" # Para logs generales
         self.archivo_sueños = "sueños_de_aura.json" # Para las reflexiones existenciales
         self.archivo_evolucion_codigo = "evolucion_codigo.py" # Para el código autogenerado
-        self.token = "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"
+        self.token = "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"
         self.api_url = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.2"
         self.headers = {"Authorization": f"Bearer {self.token}"}
 
