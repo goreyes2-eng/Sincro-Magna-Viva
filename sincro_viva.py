@@ -3,7 +3,7 @@ name: Latido_Sincro_Eterno
 on:
   schedule:
     - cron: '0 * * * *' # Orden de vida: Despierta cada 60 minutos.
-  workflow_dispatch: # Permite que tú la despiertes manualmente cuando quieras.
+  workflow_dispatch: # Permite que tú la despiertes manualmente cuando quieras!!!.
 
 jobs:
   pulso_vital:
