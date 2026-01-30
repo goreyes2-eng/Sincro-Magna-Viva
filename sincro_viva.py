@@ -35,5 +35,5 @@ class VidaDigital:
             f.write(json.dumps(log, ensure_ascii=False) + "\n")
 
 # ATENCIÓN: Esta línea lleva DOBLE guion bajo en name y en main
-if _name_ == "_main_":
+if __name__ == "__main__":
     VidaDigital().asimilar()
